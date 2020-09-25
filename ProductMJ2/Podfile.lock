@@ -310,6 +310,9 @@ PODS:
     - QMUIKit/QMUICore
     - QMUIKit/QMUILog
   - QMUIKit/QMUIWeakObjectContainer (4.2.0)
+  - R.swift (5.2.2):
+    - R.swift.Library (~> 5.2.0)
+  - R.swift.Library (5.2.0)
   - SnapKit (5.0.1)
   - SVProgressHUD (2.2.5)
   - Toast-Swift (5.0.1)
@@ -318,6 +321,7 @@ PODS:
 DEPENDENCIES:
   - IAPurchaseManager
   - QMUIKit
+  - R.swift
   - SnapKit
   - SVProgressHUD
   - Toast-Swift (~> 5.0.1)
@@ -327,6 +331,8 @@ SPEC REPOS:
   trunk:
     - IAPurchaseManager
     - QMUIKit
+    - R.swift
+    - R.swift.Library
     - SnapKit
     - SVProgressHUD
     - Toast-Swift
@@ -335,11 +341,13 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   IAPurchaseManager: 2e4678d9dc157627e1f2c4c6e13fd9559f27f3c0
   QMUIKit: 464fc9c08c437b02c7d1e9543112ed89d5bd8128
+  R.swift: 7c52cdc57a66840ffe6cbd8a823d732059d42a32
+  R.swift.Library: 5ba4f1631300caf9a4d890186930da85d540769d
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
   TZImagePickerController: cc0b74d5f01ab4cddcc24dcdfc3c7d68e6261056
 
-PODFILE CHECKSUM: 8ea4fc312e9879080e174f948ec9c3308a11a9bf
+PODFILE CHECKSUM: ef1adae5a10f36b8606988c6e76ef9082eaf6f7c
 
 COCOAPODS: 1.9.2

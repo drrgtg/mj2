@@ -3,29 +3,99 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A270C12251DC15900D070B0 /* PMSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A270C10251DC15900D070B0 /* PMSettingViewController.swift */; };
+		7A270C13251DC15900D070B0 /* PMSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A270C11251DC15900D070B0 /* PMSettingViewController.xib */; };
+		7A270C17251DC23900D070B0 /* PMSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A270C15251DC23900D070B0 /* PMSettingTableViewCell.swift */; };
+		7A270C18251DC23900D070B0 /* PMSettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A270C16251DC23900D070B0 /* PMSettingTableViewCell.xib */; };
+		7A270C1B251DC5A200D070B0 /* PMTemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A270C19251DC5A200D070B0 /* PMTemsViewController.swift */; };
+		7A270C1C251DC5A200D070B0 /* PMTemsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A270C1A251DC5A200D070B0 /* PMTemsViewController.xib */; };
+		7A270C1F251DC5AF00D070B0 /* PMPrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A270C1D251DC5AF00D070B0 /* PMPrivacyViewController.swift */; };
+		7A270C20251DC5AF00D070B0 /* PMPrivacyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A270C1E251DC5AF00D070B0 /* PMPrivacyViewController.xib */; };
+		7A270C23251DCA4900D070B0 /* PMSaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A270C21251DCA4900D070B0 /* PMSaveViewController.swift */; };
+		7A270C24251DCA4900D070B0 /* PMSaveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A270C22251DCA4900D070B0 /* PMSaveViewController.xib */; };
+		7A270C26251DCD6B00D070B0 /* PMColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A270C25251DCD6B00D070B0 /* PMColorPicker.swift */; };
+		7A270C29251DD00E00D070B0 /* PMEditBorderToolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A270C28251DD00E00D070B0 /* PMEditBorderToolView.swift */; };
+		7A270C2B251DD02100D070B0 /* PMEditPaperToolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A270C2A251DD02100D070B0 /* PMEditPaperToolView.swift */; };
+		7A270C2D251DD03000D070B0 /* PMEditBorderToolView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A270C2C251DD03000D070B0 /* PMEditBorderToolView.xib */; };
+		7A270C32251DE0FE00D070B0 /* PMStickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A270C31251DE0FE00D070B0 /* PMStickerModel.swift */; };
+		7A270C34251DE26000D070B0 /* PMPickerItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A270C33251DE26000D070B0 /* PMPickerItemView.swift */; };
 		7AF86096251CAA9B0001CD3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF86095251CAA9B0001CD3D /* AppDelegate.swift */; };
-		7AF86098251CAA9B0001CD3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF86097251CAA9B0001CD3D /* SceneDelegate.swift */; };
-		7AF8609A251CAA9B0001CD3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF86099251CAA9B0001CD3D /* ViewController.swift */; };
 		7AF8609D251CAA9B0001CD3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF8609B251CAA9B0001CD3D /* Main.storyboard */; };
 		7AF8609F251CAA9F0001CD3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF8609E251CAA9F0001CD3D /* Assets.xcassets */; };
 		7AF860A2251CAA9F0001CD3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF860A0251CAA9F0001CD3D /* LaunchScreen.storyboard */; };
+		7AF860AF251D8C540001CD3D /* StickerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7AF860AA251D8C540001CD3D /* StickerView.bundle */; };
+		7AF860B0251D8C540001CD3D /* SingleHandGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF860AD251D8C540001CD3D /* SingleHandGestureRecognizer.m */; };
+		7AF860B1251D8C540001CD3D /* StickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF860AE251D8C540001CD3D /* StickerView.m */; };
+		7AF860B5251D8C690001CD3D /* QMUIConfigurationTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF860B4251D8C690001CD3D /* QMUIConfigurationTemplate.m */; };
+		7AF860B8251D8C930001CD3D /* PMBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF860B7251D8C930001CD3D /* PMBaseViewController.swift */; };
+		7AF860BB251D8D7E0001CD3D /* PMBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF860BA251D8D7E0001CD3D /* PMBaseNavigationController.swift */; };
+		7AF860BD251D8E990001CD3D /* PMToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF860BC251D8E990001CD3D /* PMToast.swift */; };
+		7AF860BF251D8EB00001CD3D /* PMConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF860BE251D8EB00001CD3D /* PMConstant.swift */; };
+		7AF860C7251D91910001CD3D /* PMHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF860C6251D91910001CD3D /* PMHomeViewController.swift */; };
+		7AF860CA251D925A0001CD3D /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF860C9251D925A0001CD3D /* R.generated.swift */; };
+		7AF860CE251D94E90001CD3D /* PMHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF860CC251D94E90001CD3D /* PMHomeCollectionViewCell.swift */; };
+		7AF860CF251D94E90001CD3D /* PMHomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AF860CD251D94E90001CD3D /* PMHomeCollectionViewCell.xib */; };
+		7AF860D2251D9F5E0001CD3D /* PMEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF860D0251D9F5E0001CD3D /* PMEditViewController.swift */; };
+		7AF860D3251D9F5E0001CD3D /* PMEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AF860D1251D9F5E0001CD3D /* PMEditViewController.xib */; };
+		7AF860D5251DBB820001CD3D /* PMSubBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF860D4251DBB820001CD3D /* PMSubBaseViewController.swift */; };
+		7AF860D8251DBCBB0001CD3D /* PMCoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF860D6251DBCBB0001CD3D /* PMCoinViewController.swift */; };
+		7AF860D9251DBCBB0001CD3D /* PMCoinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AF860D7251DBCBB0001CD3D /* PMCoinViewController.xib */; };
+		7AF860DD251DBD4C0001CD3D /* PMCoinCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF860DB251DBD4C0001CD3D /* PMCoinCollectionViewCell.swift */; };
+		7AF860DE251DBD4C0001CD3D /* PMCoinCollectionViewCellID.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AF860DC251DBD4C0001CD3D /* PMCoinCollectionViewCellID.xib */; };
 		992BD818C3009E45840CB8B3 /* Pods_ProductMJ2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B215AE3947E16E09332C8A7F /* Pods_ProductMJ2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7187A5A10544E4E27085E1ED /* Pods-ProductMJ2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProductMJ2.release.xcconfig"; path = "Target Support Files/Pods-ProductMJ2/Pods-ProductMJ2.release.xcconfig"; sourceTree = "<group>"; };
-		7AF86092251CAA9B0001CD3D /* ProductMJ2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductMJ2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A270C10251DC15900D070B0 /* PMSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMSettingViewController.swift; sourceTree = "<group>"; };
+		7A270C11251DC15900D070B0 /* PMSettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PMSettingViewController.xib; sourceTree = "<group>"; };
+		7A270C15251DC23900D070B0 /* PMSettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMSettingTableViewCell.swift; sourceTree = "<group>"; };
+		7A270C16251DC23900D070B0 /* PMSettingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PMSettingTableViewCell.xib; sourceTree = "<group>"; };
+		7A270C19251DC5A200D070B0 /* PMTemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMTemsViewController.swift; sourceTree = "<group>"; };
+		7A270C1A251DC5A200D070B0 /* PMTemsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PMTemsViewController.xib; sourceTree = "<group>"; };
+		7A270C1D251DC5AF00D070B0 /* PMPrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMPrivacyViewController.swift; sourceTree = "<group>"; };
+		7A270C1E251DC5AF00D070B0 /* PMPrivacyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PMPrivacyViewController.xib; sourceTree = "<group>"; };
+		7A270C21251DCA4900D070B0 /* PMSaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMSaveViewController.swift; sourceTree = "<group>"; };
+		7A270C22251DCA4900D070B0 /* PMSaveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PMSaveViewController.xib; sourceTree = "<group>"; };
+		7A270C25251DCD6B00D070B0 /* PMColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMColorPicker.swift; sourceTree = "<group>"; };
+		7A270C28251DD00E00D070B0 /* PMEditBorderToolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMEditBorderToolView.swift; sourceTree = "<group>"; };
+		7A270C2A251DD02100D070B0 /* PMEditPaperToolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMEditPaperToolView.swift; sourceTree = "<group>"; };
+		7A270C2C251DD03000D070B0 /* PMEditBorderToolView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PMEditBorderToolView.xib; sourceTree = "<group>"; };
+		7A270C31251DE0FE00D070B0 /* PMStickerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMStickerModel.swift; sourceTree = "<group>"; };
+		7A270C33251DE26000D070B0 /* PMPickerItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMPickerItemView.swift; sourceTree = "<group>"; };
+		7AF86092251CAA9B0001CD3D /* BuPortrait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuPortrait.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF86095251CAA9B0001CD3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7AF86097251CAA9B0001CD3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7AF86099251CAA9B0001CD3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7AF8609C251CAA9B0001CD3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AF8609E251CAA9F0001CD3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AF860A1251CAA9F0001CD3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AF860A3251CAA9F0001CD3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF860AA251D8C540001CD3D /* StickerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = StickerView.bundle; sourceTree = "<group>"; };
+		7AF860AB251D8C540001CD3D /* StickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickerView.h; sourceTree = "<group>"; };
+		7AF860AC251D8C540001CD3D /* SingleHandGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleHandGestureRecognizer.h; sourceTree = "<group>"; };
+		7AF860AD251D8C540001CD3D /* SingleHandGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleHandGestureRecognizer.m; sourceTree = "<group>"; };
+		7AF860AE251D8C540001CD3D /* StickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickerView.m; sourceTree = "<group>"; };
+		7AF860B3251D8C690001CD3D /* QMUIConfigurationTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplate.h; sourceTree = "<group>"; };
+		7AF860B4251D8C690001CD3D /* QMUIConfigurationTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplate.m; sourceTree = "<group>"; };
+		7AF860B7251D8C930001CD3D /* PMBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMBaseViewController.swift; sourceTree = "<group>"; };
+		7AF860B9251D8CCE0001CD3D /* ProductMJ2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProductMJ2-Bridging-Header.h"; sourceTree = "<group>"; };
+		7AF860BA251D8D7E0001CD3D /* PMBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMBaseNavigationController.swift; sourceTree = "<group>"; };
+		7AF860BC251D8E990001CD3D /* PMToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMToast.swift; sourceTree = "<group>"; };
+		7AF860BE251D8EB00001CD3D /* PMConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMConstant.swift; sourceTree = "<group>"; };
+		7AF860C6251D91910001CD3D /* PMHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMHomeViewController.swift; sourceTree = "<group>"; };
+		7AF860C9251D925A0001CD3D /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		7AF860CC251D94E90001CD3D /* PMHomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMHomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		7AF860CD251D94E90001CD3D /* PMHomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PMHomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		7AF860D0251D9F5E0001CD3D /* PMEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMEditViewController.swift; sourceTree = "<group>"; };
+		7AF860D1251D9F5E0001CD3D /* PMEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PMEditViewController.xib; sourceTree = "<group>"; };
+		7AF860D4251DBB820001CD3D /* PMSubBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMSubBaseViewController.swift; sourceTree = "<group>"; };
+		7AF860D6251DBCBB0001CD3D /* PMCoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMCoinViewController.swift; sourceTree = "<group>"; };
+		7AF860D7251DBCBB0001CD3D /* PMCoinViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PMCoinViewController.xib; sourceTree = "<group>"; };
+		7AF860DB251DBD4C0001CD3D /* PMCoinCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMCoinCollectionViewCell.swift; sourceTree = "<group>"; };
+		7AF860DC251DBD4C0001CD3D /* PMCoinCollectionViewCellID.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PMCoinCollectionViewCellID.xib; sourceTree = "<group>"; };
 		B215AE3947E16E09332C8A7F /* Pods_ProductMJ2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProductMJ2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCABCDCA012A1C2FA047A387 /* Pods-ProductMJ2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProductMJ2.debug.xcconfig"; path = "Target Support Files/Pods-ProductMJ2/Pods-ProductMJ2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,7 +118,6 @@
 				FCABCDCA012A1C2FA047A387 /* Pods-ProductMJ2.debug.xcconfig */,
 				7187A5A10544E4E27085E1ED /* Pods-ProductMJ2.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -58,6 +127,34 @@
 				B215AE3947E16E09332C8A7F /* Pods_ProductMJ2.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A270C14251DC21F00D070B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A270C15251DC23900D070B0 /* PMSettingTableViewCell.swift */,
+				7A270C16251DC23900D070B0 /* PMSettingTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A270C27251DCFF500D070B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A270C28251DD00E00D070B0 /* PMEditBorderToolView.swift */,
+				7A270C2C251DD03000D070B0 /* PMEditBorderToolView.xib */,
+				7A270C2A251DD02100D070B0 /* PMEditPaperToolView.swift */,
+				7A270C33251DE26000D070B0 /* PMPickerItemView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A270C30251DE0E000D070B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A270C31251DE0FE00D070B0 /* PMStickerModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		7AF86089251CAA9B0001CD3D = {
@@ -73,7 +170,7 @@
 		7AF86093251CAA9B0001CD3D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7AF86092251CAA9B0001CD3D /* ProductMJ2.app */,
+				7AF86092251CAA9B0001CD3D /* BuPortrait.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,14 +179,127 @@
 			isa = PBXGroup;
 			children = (
 				7AF86095251CAA9B0001CD3D /* AppDelegate.swift */,
-				7AF86097251CAA9B0001CD3D /* SceneDelegate.swift */,
-				7AF86099251CAA9B0001CD3D /* ViewController.swift */,
+				7AF860D4251DBB820001CD3D /* PMSubBaseViewController.swift */,
+				7AF860C1251D8FBB0001CD3D /* Edit */,
+				7AF860C5251D902F0001CD3D /* Setting */,
+				7AF860C3251D8FC60001CD3D /* Coin */,
+				7AF860C2251D8FC10001CD3D /* Save */,
+				7AF860C0251D8FAD0001CD3D /* Home */,
 				7AF8609B251CAA9B0001CD3D /* Main.storyboard */,
 				7AF8609E251CAA9F0001CD3D /* Assets.xcassets */,
 				7AF860A0251CAA9F0001CD3D /* LaunchScreen.storyboard */,
 				7AF860A3251CAA9F0001CD3D /* Info.plist */,
+				7AF860B9251D8CCE0001CD3D /* ProductMJ2-Bridging-Header.h */,
+				7AF860C9251D925A0001CD3D /* R.generated.swift */,
+				7AF860B6251D8C6D0001CD3D /* Base */,
 			);
 			path = ProductMJ2;
+			sourceTree = "<group>";
+		};
+		7AF860A9251D8C540001CD3D /* StickerView-Framework */ = {
+			isa = PBXGroup;
+			children = (
+				7AF860AA251D8C540001CD3D /* StickerView.bundle */,
+				7AF860AB251D8C540001CD3D /* StickerView.h */,
+				7AF860AC251D8C540001CD3D /* SingleHandGestureRecognizer.h */,
+				7AF860AD251D8C540001CD3D /* SingleHandGestureRecognizer.m */,
+				7AF860AE251D8C540001CD3D /* StickerView.m */,
+			);
+			path = "StickerView-Framework";
+			sourceTree = "<group>";
+		};
+		7AF860B2251D8C690001CD3D /* QMUITemplate */ = {
+			isa = PBXGroup;
+			children = (
+				7AF860B3251D8C690001CD3D /* QMUIConfigurationTemplate.h */,
+				7AF860B4251D8C690001CD3D /* QMUIConfigurationTemplate.m */,
+			);
+			path = QMUITemplate;
+			sourceTree = "<group>";
+		};
+		7AF860B6251D8C6D0001CD3D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7AF860A9251D8C540001CD3D /* StickerView-Framework */,
+				7AF860B2251D8C690001CD3D /* QMUITemplate */,
+				7AF860B7251D8C930001CD3D /* PMBaseViewController.swift */,
+				7AF860BA251D8D7E0001CD3D /* PMBaseNavigationController.swift */,
+				7AF860BC251D8E990001CD3D /* PMToast.swift */,
+				7AF860BE251D8EB00001CD3D /* PMConstant.swift */,
+				7A270C25251DCD6B00D070B0 /* PMColorPicker.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7AF860C0251D8FAD0001CD3D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7AF860C6251D91910001CD3D /* PMHomeViewController.swift */,
+				7AF860CB251D94CB0001CD3D /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7AF860C1251D8FBB0001CD3D /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				7A270C30251DE0E000D070B0 /* Model */,
+				7A270C27251DCFF500D070B0 /* View */,
+				7AF860D0251D9F5E0001CD3D /* PMEditViewController.swift */,
+				7AF860D1251D9F5E0001CD3D /* PMEditViewController.xib */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		7AF860C2251D8FC10001CD3D /* Save */ = {
+			isa = PBXGroup;
+			children = (
+				7A270C21251DCA4900D070B0 /* PMSaveViewController.swift */,
+				7A270C22251DCA4900D070B0 /* PMSaveViewController.xib */,
+			);
+			path = Save;
+			sourceTree = "<group>";
+		};
+		7AF860C3251D8FC60001CD3D /* Coin */ = {
+			isa = PBXGroup;
+			children = (
+				7AF860DA251DBCC40001CD3D /* View */,
+				7AF860D6251DBCBB0001CD3D /* PMCoinViewController.swift */,
+				7AF860D7251DBCBB0001CD3D /* PMCoinViewController.xib */,
+			);
+			path = Coin;
+			sourceTree = "<group>";
+		};
+		7AF860C5251D902F0001CD3D /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				7A270C14251DC21F00D070B0 /* View */,
+				7A270C10251DC15900D070B0 /* PMSettingViewController.swift */,
+				7A270C11251DC15900D070B0 /* PMSettingViewController.xib */,
+				7A270C19251DC5A200D070B0 /* PMTemsViewController.swift */,
+				7A270C1A251DC5A200D070B0 /* PMTemsViewController.xib */,
+				7A270C1D251DC5AF00D070B0 /* PMPrivacyViewController.swift */,
+				7A270C1E251DC5AF00D070B0 /* PMPrivacyViewController.xib */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		7AF860CB251D94CB0001CD3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AF860CC251D94E90001CD3D /* PMHomeCollectionViewCell.swift */,
+				7AF860CD251D94E90001CD3D /* PMHomeCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AF860DA251DBCC40001CD3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AF860DB251DBD4C0001CD3D /* PMCoinCollectionViewCell.swift */,
+				7AF860DC251DBD4C0001CD3D /* PMCoinCollectionViewCellID.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,6 +310,7 @@
 			buildConfigurationList = 7AF860A6251CAA9F0001CD3D /* Build configuration list for PBXNativeTarget "ProductMJ2" */;
 			buildPhases = (
 				4B26824A56D4BDA57C46DA28 /* [CP] Check Pods Manifest.lock */,
+				7AF860C8251D92180001CD3D /* ShellScript */,
 				7AF8608E251CAA9B0001CD3D /* Sources */,
 				7AF8608F251CAA9B0001CD3D /* Frameworks */,
 				7AF86090251CAA9B0001CD3D /* Resources */,
@@ -111,7 +322,7 @@
 			);
 			name = ProductMJ2;
 			productName = ProductMJ2;
-			productReference = 7AF86092251CAA9B0001CD3D /* ProductMJ2.app */;
+			productReference = 7AF86092251CAA9B0001CD3D /* BuPortrait.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -120,6 +331,7 @@
 		7AF8608A251CAA9B0001CD3D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = PM;
 				LastSwiftUpdateCheck = 1170;
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = tutu;
@@ -153,8 +365,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AF860A2251CAA9F0001CD3D /* LaunchScreen.storyboard in Resources */,
+				7AF860DE251DBD4C0001CD3D /* PMCoinCollectionViewCellID.xib in Resources */,
+				7A270C20251DC5AF00D070B0 /* PMPrivacyViewController.xib in Resources */,
+				7AF860D3251D9F5E0001CD3D /* PMEditViewController.xib in Resources */,
+				7A270C1C251DC5A200D070B0 /* PMTemsViewController.xib in Resources */,
 				7AF8609F251CAA9F0001CD3D /* Assets.xcassets in Resources */,
+				7A270C13251DC15900D070B0 /* PMSettingViewController.xib in Resources */,
+				7A270C2D251DD03000D070B0 /* PMEditBorderToolView.xib in Resources */,
+				7AF860AF251D8C540001CD3D /* StickerView.bundle in Resources */,
 				7AF8609D251CAA9B0001CD3D /* Main.storyboard in Resources */,
+				7A270C18251DC23900D070B0 /* PMSettingTableViewCell.xib in Resources */,
+				7A270C24251DCA4900D070B0 /* PMSaveViewController.xib in Resources */,
+				7AF860D9251DBCBB0001CD3D /* PMCoinViewController.xib in Resources */,
+				7AF860CF251D94E90001CD3D /* PMHomeCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +406,25 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7AF860C8251D92180001CD3D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
 		FA4EC063564AE9A50E51B3B6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -207,9 +449,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AF8609A251CAA9B0001CD3D /* ViewController.swift in Sources */,
+				7AF860BD251D8E990001CD3D /* PMToast.swift in Sources */,
+				7AF860C7251D91910001CD3D /* PMHomeViewController.swift in Sources */,
+				7A270C12251DC15900D070B0 /* PMSettingViewController.swift in Sources */,
+				7A270C17251DC23900D070B0 /* PMSettingTableViewCell.swift in Sources */,
+				7A270C1F251DC5AF00D070B0 /* PMPrivacyViewController.swift in Sources */,
+				7AF860B8251D8C930001CD3D /* PMBaseViewController.swift in Sources */,
+				7AF860B1251D8C540001CD3D /* StickerView.m in Sources */,
+				7AF860B5251D8C690001CD3D /* QMUIConfigurationTemplate.m in Sources */,
+				7AF860CE251D94E90001CD3D /* PMHomeCollectionViewCell.swift in Sources */,
+				7A270C2B251DD02100D070B0 /* PMEditPaperToolView.swift in Sources */,
+				7A270C34251DE26000D070B0 /* PMPickerItemView.swift in Sources */,
+				7AF860DD251DBD4C0001CD3D /* PMCoinCollectionViewCell.swift in Sources */,
+				7AF860BB251D8D7E0001CD3D /* PMBaseNavigationController.swift in Sources */,
+				7A270C26251DCD6B00D070B0 /* PMColorPicker.swift in Sources */,
+				7A270C1B251DC5A200D070B0 /* PMTemsViewController.swift in Sources */,
+				7A270C29251DD00E00D070B0 /* PMEditBorderToolView.swift in Sources */,
+				7AF860D2251D9F5E0001CD3D /* PMEditViewController.swift in Sources */,
+				7AF860BF251D8EB00001CD3D /* PMConstant.swift in Sources */,
+				7AF860CA251D925A0001CD3D /* R.generated.swift in Sources */,
+				7A270C32251DE0FE00D070B0 /* PMStickerModel.swift in Sources */,
+				7AF860B0251D8C540001CD3D /* SingleHandGestureRecognizer.m in Sources */,
+				7A270C23251DCA4900D070B0 /* PMSaveViewController.swift in Sources */,
+				7AF860D5251DBB820001CD3D /* PMSubBaseViewController.swift in Sources */,
+				7AF860D8251DBCBB0001CD3D /* PMCoinViewController.swift in Sources */,
 				7AF86096251CAA9B0001CD3D /* AppDelegate.swift in Sources */,
-				7AF86098251CAA9B0001CD3D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,12 +620,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ProductMJ2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tutu.ProductMJ2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BuPortrait;
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/ProductMJ2/ProductMJ2-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -374,12 +640,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ProductMJ2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tutu.ProductMJ2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BuPortrait;
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/ProductMJ2/ProductMJ2-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

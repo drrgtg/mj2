@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PMTemsViewController" customModule="ProductMJ2" customModuleProvider="target">
+            <connections>
+                <outlet property="textView" destination="1JY-e3-iKg" id="K0m-zi-Xqk"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1JY-e3-iKg">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <mutableString key="text">Welcome to the BuPortrait terms and conditions of service (the "terms and conditions").
+
+1、 Confirmation and acceptance of terms and conditions of service
+By reading these terms and conditions and continuing to use the services provided by BuPortrait, users have reached an agreement with BuPortrait and voluntarily accept all contents of these terms and conditions.
+Note: users should read these terms and conditions carefully before participating in various services provided by BuPortrait. If the user does not agree with the terms and conditions of service and / or the modification of the terms and conditions at any time, the user may voluntarily give up participating in the services provided by BuPortrait; once the user participates in any service provided by BuPortrait, it shall be deemed that the user has understood and fully agreed to all contents of the terms and conditions of service, including any changes made by BuPortrait to the terms and conditions of service at any time
+
+2. User information and qualification
+All users of the BuPortrait website services understand and agree that:
+All users must use the service through their registered account in BuPortrait. Each user can choose the service package that he / she is interested in, and submit personal information such as identity, residence, age, communication method and e-mail in accordance with the purchase process of the service package. Corporate users are also required to provide unified social credit code, registration place, address and other corporate information (hereinafter referred to as"User information");
+Any user who submits the user information correctly through the BuPortrait service package purchase process and is confirmed by BuPortrait as qualified to legally enter into a service agreement, BuPortrait will provide corresponding services according to the purchased package.
+All users agree to provide corresponding and valid user information according to the process requirements of BuPortrait service package purchase.If necessary, BuPortrait may require the user to provide valid proof of relevant user information and other relevant documents.
+It is a basic policy of BuPortrait to respect the personal information of users (i.e. information that can identify users independently or in combination with other information).When you use BuPortrait to provide services, you agree that BuPortrait collects, stores, uses, discloses and protects your information in accordance with the privacy policy published on the BuPortrait website.BuPortrait would like to make clear to you how BuPortrait handles your personal information through the privacy policy, so BuPortrait recommends that you read the privacy policy in its entirety to help you better protect your privacy.
+BuPortrait may refuse to provide services to any user for any reason, including, but not limited to, circumstances in which BuPortrait, in its reasonable judgment, considers that the evidence provided by the user is insufficient.
+BuPortrait may, at any time, terminate its services to any user at its sole discretion and without notice for any reason, including but not limited to: (a) failure to meet the eligibility criteria for the service; (b) failure to meet the terms and conditions of this service; (c) any user who attempts to obtain services through unauthorized channels other than those described in the terms and conditions of this service; and (d) use of blackCustomer software and other unfair practices attempt to prevent other users from obtaining services; (E) otherwise attempt to disrupt the services provided by BuPortrait; (f) infringe the rights of any third party or violate local laws and regulations throughout the process of participating in the services.
+BuPortrait may take technical or other measures to protect the normal provision of services, thereby protecting the user's service experience, or preventing users from breaching the terms and conditions of this service.These measures may include: (a) preventing spam or improving security levels through filtering; (b) collecting relevant information about service conditions and the use of services; (c) automatically uploading relevant information from the devices of illegal users.
+
+3. Service management
+In the process of participating in the BuPortrait online service, users must follow the following principles:
+Comply with relevant laws and regulations;
+Comply with the laws of the place where the services are used and all agreements, rules and procedures relating to the services;
+Comply with any guidance instructions or requirements provided by BuPortrait to users from time to time;
+Not to participate in relevant online services for any illegal purpose;
+It is not allowed to transmit any harassment, defamation, abusive, intimidating, vulgarity and obscenity or any other illegal information in the course of participating in the service;
+Do not do anything against BuPortrait.
+Unless otherwise agreed in writing between the user and BuPortrait, the user shall not copy, copy, sell, resell or use for any other commercial purpose any part of the services provided by BuPortrait or all materials related to the online services.
+Users shall submit their user information in a correct and timely manner in accordance with the requirements of the process of purchasing service packages.Users are fully responsible for the correct submission of user information.BuPortrait has the right to terminate the provision of services to users at any time if the user information is not provided in accordance with its identity by mistake or is intentionally false.BuPortrait will not be liable for any loss caused to the users.
+In order to better improve the service experience of the website and meet the needs of users, users agree to supplement or update their user information in a correct and timely manner according to the requirements of BuPortrait from time to time.
+
+4. User statements and warranties
+All users hereby represent and warrant as follows:
+It agrees and will comply with the requirements set out in the terms and conditions of service;
+The user information provided by it is true and effective;
+It will not engage in violations of national laws through the use of services provided by BuPortrait;
+It will strictly comply with the relevant laws and regulations and the rules and specific instructions and requirements issued by BuPortrait from time to time.
+The website or applet designed, created, added and established by the user in the process of using the BuPortrait service and all the contents on it (hereinafter referred to as the "user's works") comply with the measures for the administration of Internet information services of the People's Republic of China and relevant specifications, and do not contain the following contents:
+Information and content that pose a threat to national security;
+Publicize information and contents such as violence, crime, war, terrorism, militarism, thought of the Nazis and national hatefulness;
+Yellow, obscenity, low-grade and indecent information and content;
+Games, information and contents harmful to the healthy growth of children;
+Information and contents that infringe on the intellectual property rights and privacy rights of others;
+Information and contents that violate social public morality and public order and good customs;
+Other information and contents that conflict with laws, regulations, rules and regulations.
+3 the user understands and agrees that, as the producer and manager of the user's works, the user shall at all times bear all civil and administrative liabilities for all contents of the user's works independently.Notwithstanding the provisions of the first and second paragraphs above, BuPortrait does not assume any form of responsibility for the user's work and disputes arising from the user's work, and BuPortrait does not have prior or subsequent regulatory obligations for the legality and compliance of the user's work.If the user's work violates national laws and regulations or infringes the rights of a third party and other matters, resulting in the loss of BuPortrait, the user shall compensate all the losses caused to BuPortrait including compensation, attorney's fees and litigation fees.
+
+5. Provide services according to the current situation
+Users understand and agree that BuPortrait's services are provided in accordance with the current status of the existing technology and conditions.BuPortrait will use its best efforts to provide services to ensure the continuity and security of the services; however, BuPortrait cannot foresee and prevent legal, technical and other risks at any time, including but not limited to force majeure, viruses, Trojans, hacking, system instability, third party service defects, government actions and other reasons that may lead to service interruption, data loss and other losses and risksInsurance, BuPortrait will promptly notify the user and will use its best efforts to provide the relevant materials and assist in the recovery, but BuPortrait will not bear any loss to the user caused by such events.
+
+6. Self provided equipment
+Users know and understand that to use BuPortrait services, they need to prepare their own mobile phones, computers and other terminal equipment related to the relevant services.At the same time, users will consume resources such as terminal equipment and network bandwidth when using the service, and all expenses incurred therefrom shall be borne by the users themselves.
+
+7. Intellectual property rights
+Except for the works provided by BuPortrait which belong to the rights of BuPortrait or third parties, users have intellectual property rights over all the contents of the user's works produced by them using BuPortrait services, including but not limited to copyright, technical secrets and trade secrets.
+The user understands and understands that BuPortrait only grants the user the right to receive services. Unless otherwise agreed, the user has not been granted any intellectual property rights in relation to the BuPortrait service and its related software, and the user shall not, and agrees not to, cause others to copy, disassembly or reverse engineer the software in which BuPortrait has the intellectual property rights.The user further undertakes that it will only use the BuPortrait intellectual property rights for the purpose of receiving the services, and that the user shall not use the BuPortrait intellectual property rights for any purpose other than receiving the services, or infringe the intellectual property rights of BuPortrait in any other form, at any time during the term of the services or after the termination or release of the services.
+For the purpose of business promotion, BuPortrait has the right to use the user's work as a successful case for BuPortrait's business promotion after the user is informed in advance in writing. However, if the user's sensitive or confidential information (such as traffic, profit, marketing means, etc.) is involved in the promotion process, BuPortrait needs to obtain the user's permission in advance.
+
+8. Confidentiality obligations
+Users shall keep confidential the confidential information of BuPortrait that they know in the process of receiving BuPortrait services, including but not limited to the service contents, service methods, service materials and the contents in the service agreement separately signed by both parties (hereinafter referred to as "confidential information").The user shall not disclose, provide or transfer the confidential information obtained to any third party without the written consent of BuPortrait.If the user fails to perform the obligations under this clause, resulting in the leakage of confidential information, it shall be deemed as breach of contract.Users shall bear all losses to BuPortrait caused by their own breach of contract.
+After the termination of the service relationship between the user and BuPortrait, the terms of the confidential information shall remain valid.
+
+
+9. Termination of services
+In order to effectively prevent unfair competition such as malicious registration and preemptive registration, if BuPortrait considers that the user has violated the literal meaning and spirit of the terms and conditions of service, or the user has acted in a manner inconsistent with the literal meaning and spirit of the terms and conditions of service, or the user has not logged in the website with your account and password within more than 30 days, BuPortrait may terminate at its sole discretionProhibit users from using the service; if BuPortrait considers that the user has violated the literal meaning and spirit of the terms and conditions of service, or the user has acted in a manner inconsistent with the literal meaning and spirit of the terms and conditions of service, or the user has not logged on the website with its account and password for more than 60 days, BuPortrait may terminate the user's account and password at its sole discretion, and delete and discard the user's account and passwordAll materials submitted by the user in the usage service.
+Measures to terminate user's use of the services in accordance with any of the provisions of these terms and conditions of service and users understand and understand that BuPortrait may do so without prior notice.The user further agrees that BuPortrait may immediately invalidate the user's account, or revoke the user's account and all relevant information and files in the user's account, and / or prohibit the user from further accessing the service to use such information and files.
+The user further understands and understands that in the event of termination of the user's account due to a breach of the terms and conditions of service, BuPortrait shall not be obliged to retain any information in or relating to the original account for the user, or to forward any information that has not been read or sent to the user or any third party.In addition, BuPortrait will not be liable to the user or any third party for the termination of the user access service.
+Users know and understand that using the services provided by BuPortrait in different countries and regions should comply with the relevant local laws and regulations, and respect the local ethics and customs.If the user's behavior violates the local laws and regulations or moral customs, the user shall bear all the responsibilities arising therefrom independently, and BuPortrait has the right to suspend or terminate the provision of services to the user as the case may be.At the same time, users should avoid indirectly involving BuPortrait in political and public events due to the use of BuPortrait services, otherwise BuPortrait has the right to immediately terminate the service and require users to bear all losses caused to BuPortrait.
+
+9. Liabilities for breach of contract
+All users agree and confirm that their material breach of any of the terms and conditions of service, or material failure to perform or delay in performing any of the obligations under this agreement, constitutes a breach of the terms and conditions of service.BuPortrait shall have the right to terminate the provision of the services to BuPortrait and shall be entitled to claim full compensation for all losses caused to puzzling as a result.
+If the user violates the terms and conditions of service or the relevant laws and regulations, resulting in or resulting in any claim, demand or loss claimed by any third party, including reasonable attorney fees, the user agrees to compensate BuPortrait for all losses.In this regard, BuPortrait has the right to, depending on the nature of the user's behavior, take measures including but not limited to deleting the user's storage of infringing content, terminating the service, recovering the account, and pursuing legal liabilities.BuPortrait shall have the right to request BuPortrait to eliminate the impact, publicly apologize and compensate all losses caused to puzzling for illegal activities, harassment, deception of other users and other violations of the terms and conditions of the services.At the same time, BuPortrait will assist in the investigation at the request of the judiciary.
+
+10. Limitation of liability
+The user expressly understands and agrees that BuPortrait shall not be liable for any damages to the user arising from any of the following circumstances, including but not limited to damages for expected profits, business reputation, service use, data information and other intangible losses (whether or not BuPortrait has been advised of the possibility of such damages):
+The cost of acquiring substitute products and services arising from the purchase or acquisition of any products, samples, data, information or services through or from the BuPortrait website, or the receipt of any information through or from the BuPortrait website, or the conclusion of any transaction;
+Unauthorized access to or change of transmission data or data;
+Damage by computer viruses, Trojans or other malicious programs and hackers;
+The failure of computer software, system, hardware or communication lines results in the failure of normal use of services;
+Purchase and use the services by means other than those authorized by BuPortrait or by a third party not authorized by BuPortrait;
+Engaging in illegal activities or using BuPortrait services for improper purposes;
+Suffer any psychological, physical injury and economic loss caused or likely to be caused by any third party misleading, deception or otherwise in the course of using the BuPortrait service;
+Loss resulting from infringement by any third party in the course of using the BuPortrait service; or
+Other circumstances that BuPortrait cannot reasonably foresee or control.
+This service is not designed for specific purposes, including but not limited to important areas such as government behavior, military use, transportation and communication.BuPortrait shall not be liable for any personal injury, property loss and environmental damage caused by the failure of the above operations due to software or services.
+In any case, users should keep their own accounts and passwords properly, and should not be credulous in borrowing accounts, asking for passwords or other information involving users' properties.If account property operation is involved, please verify the identity of the other party first, and pay attention to BuPortrait's tips on preventing Internet fraud crime frequently.
+
+11. Dispute resolution
+These terms and conditions of service shall be governed by the laws of the People's Republic of China.
+In case of any dispute arising from the interpretation and performance of the terms and conditions of service, both parties shall negotiate in good faith to resolve it.If both parties fail to resolve the dispute through negotiation, either party shall refer the dispute to Shanghai Arbitration Commission, which shall arbitrate in Shanghai in accordance with the then effective arbitration rules.
+
+12. Refund
+For customers who purchase various products of "BuPortrait", they can upgrade / downgrade the package, change the payment cycle, renew and cancel the additional website after the payment is completed. As the network products will incur fees once they become effective, there is no special reason. "BuPortrait" products do not support the application for refund, please know.
+
+
+13. Others
+Matters not covered in the terms and conditions of service shall be subject to the service agreement signed between the user and BuPortrait, and the part in conflict with the service agreement shall be subject to the service agreement.
+Any provision of these terms of service and the articles shall remain valid and binding for all or part of the reason that it is invalid or unenforceable.
+The final interpretation of these terms and conditions of service shall be vested in BuPortrait.
+</mutableString>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="1JY-e3-iKg" secondAttribute="trailing" id="Bpt-m6-0fd"/>
+                <constraint firstItem="1JY-e3-iKg" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="KdN-yM-Le9"/>
+                <constraint firstItem="1JY-e3-iKg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="UbS-px-LD3"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="1JY-e3-iKg" secondAttribute="bottom" id="e8s-fx-3GA"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="60.869565217391312" y="178.79464285714286"/>
+        </view>
+    </objects>
+</document>

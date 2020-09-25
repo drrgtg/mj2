@@ -6,12 +6,12 @@ target 'ProductMJ2' do
   use_frameworks!
 
   # Pods for ProductMJ2
-
   pod 'SnapKit'
   pod 'QMUIKit'
   pod 'SVProgressHUD'
   pod 'Toast-Swift', '~> 5.0.1'
   pod 'IAPurchaseManager'
   pod 'TZImagePickerController' 
+  pod 'R.swift'
 
 end

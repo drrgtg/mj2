@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PMSaveViewController" customModule="BuPortrait" customModuleProvider="target">
+            <connections>
+                <outlet property="againBtn" destination="Paz-aK-OVE" id="gLk-gm-FgF"/>
+                <outlet property="imageView" destination="6yv-Ye-eJO" id="8ve-k8-1lF"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6yv-Ye-eJO">
+                    <rect key="frame" x="67" y="84" width="280" height="280"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="6yv-Ye-eJO" secondAttribute="height" id="B8y-3M-cSI"/>
+                        <constraint firstAttribute="width" constant="280" id="aks-FA-edj"/>
+                        <constraint firstAttribute="height" constant="280" id="ra2-3W-sQg"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SZU-4F-EbF">
+                    <rect key="frame" x="137" y="379" width="140" height="22"/>
+                    <inset key="imageEdgeInsets" minX="-8" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="Saved to album" image="icon_sv_right">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Paz-aK-OVE">
+                    <rect key="frame" x="67" y="449" width="280" height="56"/>
+                    <color key="backgroundColor" red="0.21176470588235294" green="0.2627450980392157" blue="0.56470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="iRs-3Z-ba0"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <state key="normal" title="Make again">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="clickAgain:" destination="-1" eventType="touchUpInside" id="erY-Yt-6aQ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Paz-aK-OVE" firstAttribute="top" secondItem="SZU-4F-EbF" secondAttribute="bottom" constant="48" id="BuM-Rw-yFy"/>
+                <constraint firstItem="SZU-4F-EbF" firstAttribute="top" secondItem="6yv-Ye-eJO" secondAttribute="bottom" constant="15" id="SLo-Qb-flf"/>
+                <constraint firstItem="Paz-aK-OVE" firstAttribute="trailing" secondItem="6yv-Ye-eJO" secondAttribute="trailing" id="TWB-Eg-qhX"/>
+                <constraint firstItem="6yv-Ye-eJO" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="XWP-Cq-d0n"/>
+                <constraint firstItem="6yv-Ye-eJO" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="40" id="aXh-k7-SKp"/>
+                <constraint firstItem="SZU-4F-EbF" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="bIc-uF-HvE"/>
+                <constraint firstItem="Paz-aK-OVE" firstAttribute="leading" secondItem="6yv-Ye-eJO" secondAttribute="leading" id="jbF-el-oCs"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="139" y="111"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_sv_right" width="15" height="11"/>
+    </resources>
+</document>
