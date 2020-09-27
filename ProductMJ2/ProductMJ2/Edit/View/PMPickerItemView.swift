@@ -30,7 +30,6 @@ class PMPickerItemView: UIView {
         let button = QMUIButton(type: .custom)
         return button
     }()
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupSubView()
@@ -38,7 +37,6 @@ class PMPickerItemView: UIView {
         self.layer.masksToBounds = true
         backgroundColor = .white
     }
-    
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -49,7 +47,6 @@ class PMPickerItemView: UIView {
             make.edges.equalToSuperview()
         }
         contentBtn.addTarget(self, action: #selector(clickMe), for: .touchUpInside)
-        
         let selV = UIView()
         self.addSubview(selV)
         selV.snp.makeConstraints { (make) in
@@ -62,9 +59,7 @@ class PMPickerItemView: UIView {
         selView = selV
         selV.layer.cornerRadius = 12
         selV.layer.masksToBounds = true
-        
     }
-    
     @objc func clickMe() {
         clickBlock?(self.tag)
     }
