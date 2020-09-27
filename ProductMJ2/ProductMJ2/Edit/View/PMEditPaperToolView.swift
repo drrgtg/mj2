@@ -56,7 +56,7 @@ class PMEditPaperToolView: UIView {
             let tempView = PMPickerItemView(frame: CGRect(x: x, y: 0, width: 45, height: 45))
             scrollView1?.addSubview(tempView)
             tempView.tag = 100 + i
-            tempView.contentBtn.setBackgroundImage(image, for: .normal)
+            tempView.contentBtn.setImage(image, for: .normal)
             tempView.clickBlock = {[weak self] (tag) in
                 guard let sself = self else {
                     return
@@ -73,7 +73,7 @@ class PMEditPaperToolView: UIView {
             let tempView = PMPickerItemView(frame: CGRect(x: x, y: 0, width: 76, height: 76))
             tempView.tag = 200 + i
             scrollView2?.addSubview(tempView)
-            tempView.contentBtn.setBackgroundImage(image, for: .normal)
+            tempView.contentBtn.setImage(image, for: .normal)
             tempView.clickBlock = {[weak self] (tag) in
                 guard let sself = self else {
                     return

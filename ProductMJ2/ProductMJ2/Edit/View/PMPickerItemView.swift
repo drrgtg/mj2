@@ -57,7 +57,7 @@ class PMPickerItemView: UIView {
         }
         selV.backgroundColor = .clear
         selV.layer.borderColor = UIColor.qmui_color(withHexString: "#4153E8")?.cgColor
-        selV.layer.borderWidth = 2
+        selV.layer.borderWidth = 3
         selV.isHidden = true
         selView = selV
         selV.layer.cornerRadius = 12

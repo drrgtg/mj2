@@ -32,6 +32,11 @@ class PMEditViewController: PMSubBaseViewController {
         setupView1Mode()
         setupView2Mode()
     }
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        contentImageView.layer.cornerRadius = contentImageView.qmui_width/2
+
+    }
     override func initSubviews() {
         super.initSubviews()
         
@@ -44,7 +49,6 @@ class PMEditViewController: PMSubBaseViewController {
             make.top.equalToSuperview().offset(30)
         }
         contentImageView.contentMode = .scaleAspectFill
-        contentImageView.layer.cornerRadius = imageContainerView.qmui_width/2 - 30
         contentImageView.layer.masksToBounds = true
         contentImageView.layer.borderWidth = borderWidth
         contentImageView.layer.borderColor = borderColor.cgColor
