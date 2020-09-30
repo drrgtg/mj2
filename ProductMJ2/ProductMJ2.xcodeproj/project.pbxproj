@@ -23,6 +23,7 @@
 		7A270C2D251DD03000D070B0 /* PMEditBorderToolView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A270C2C251DD03000D070B0 /* PMEditBorderToolView.xib */; };
 		7A270C32251DE0FE00D070B0 /* PMStickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A270C31251DE0FE00D070B0 /* PMStickerModel.swift */; };
 		7A270C34251DE26000D070B0 /* PMPickerItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A270C33251DE26000D070B0 /* PMPickerItemView.swift */; };
+		7A270C362524538600D070B0 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A270C352524538600D070B0 /* launch.png */; };
 		7AF86096251CAA9B0001CD3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF86095251CAA9B0001CD3D /* AppDelegate.swift */; };
 		7AF8609D251CAA9B0001CD3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF8609B251CAA9B0001CD3D /* Main.storyboard */; };
 		7AF8609F251CAA9F0001CD3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF8609E251CAA9F0001CD3D /* Assets.xcassets */; };
@@ -67,6 +68,7 @@
 		7A270C2C251DD03000D070B0 /* PMEditBorderToolView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PMEditBorderToolView.xib; sourceTree = "<group>"; };
 		7A270C31251DE0FE00D070B0 /* PMStickerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMStickerModel.swift; sourceTree = "<group>"; };
 		7A270C33251DE26000D070B0 /* PMPickerItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMPickerItemView.swift; sourceTree = "<group>"; };
+		7A270C352524538600D070B0 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
 		7AF86092251CAA9B0001CD3D /* BuPortrait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuPortrait.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF86095251CAA9B0001CD3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AF8609C251CAA9B0001CD3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				7AF860C0251D8FAD0001CD3D /* Home */,
 				7AF8609B251CAA9B0001CD3D /* Main.storyboard */,
 				7AF8609E251CAA9F0001CD3D /* Assets.xcassets */,
+				7A270C352524538600D070B0 /* launch.png */,
 				7AF860A0251CAA9F0001CD3D /* LaunchScreen.storyboard */,
 				7AF860A3251CAA9F0001CD3D /* Info.plist */,
 				7AF860B9251D8CCE0001CD3D /* ProductMJ2-Bridging-Header.h */,
@@ -370,6 +373,7 @@
 				7AF860D3251D9F5E0001CD3D /* PMEditViewController.xib in Resources */,
 				7A270C1C251DC5A200D070B0 /* PMTemsViewController.xib in Resources */,
 				7AF8609F251CAA9F0001CD3D /* Assets.xcassets in Resources */,
+				7A270C362524538600D070B0 /* launch.png in Resources */,
 				7A270C13251DC15900D070B0 /* PMSettingViewController.xib in Resources */,
 				7A270C2D251DD03000D070B0 /* PMEditBorderToolView.xib in Resources */,
 				7AF860AF251D8C540001CD3D /* StickerView.bundle in Resources */,
